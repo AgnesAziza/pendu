@@ -99,7 +99,7 @@ function updateAffichageClavier() {
 }
 
 function updateAffichageDessin() {
-  const numeroImage = 7 - nombreEchec;
+  const numeroImage = nombreEchec + 1;
   const affichageDessin = '<img src="pendu' + numeroImage + '.jpg" />';
 
   const dessin = document.querySelector("#dessin");
